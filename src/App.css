@@ -1,0 +1,57 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title-area {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.line {
+  margin-bottom: 15px;
+  height: 2px;
+  width: 80%;
+  background: black;
+}
+
+.start-button:hover {
+  cursor: pointer;
+}
+
+.wide {
+  width: 100%;
+}
+
+.current-note-display {
+  width: 300px;
+  height: 300px;
+  font-size: 14em;
+  margin-top: 20px;
+  line-height: 300px;
+  background: deepskyblue;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.speed-config-area {
+  width: 295px;
+  height: 295px;
+  border: 5px solid deepskyblue;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.speed-config-area h2 {
+  text-align: center;
+  font-family:sans-serif;
+}
+
+.speed-form-container {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  align-items: center;
+}
